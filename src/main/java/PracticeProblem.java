@@ -15,7 +15,7 @@ public class PracticeProblem {
 	}
 	public static int findLast(String[] givenArr, String givenString) {
 		int indexLast = givenArr.length - 1;
-		while (indexLast > 0) {
+		while (indexLast > -1) {
 			if (givenString.equals(givenArr[indexLast])) {
 				return indexLast;
 			}
